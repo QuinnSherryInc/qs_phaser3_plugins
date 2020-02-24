@@ -1,0 +1,20 @@
+{
+  "name": "qs_phaser3_plugins",
+  "version": "1.0.0",
+  "description": "Collection of Phaser 3 plugins by Quinn & Sherry",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuinnSherryInc/qs_phaser3_plugins.git"
+  },
+  "keywords": [
+    "Phaser",
+    "Plugins"
+  ],
+  "author": "Eric Dion",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuinnSherryInc/qs_phaser3_plugins/issues"
+  },
+  "homepage": "https://github.com/QuinnSherryInc/qs_phaser3_plugins#readme"
+}
