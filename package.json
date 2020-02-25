@@ -1,6 +1,6 @@
 {
   "name": "qs_phaser3_plugins",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Collection of Phaser 3 plugins by Quinn & Sherry",
   "main": "index.js",
   "repository": {
