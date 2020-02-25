@@ -1,5 +1,5 @@
-var SelectGroupPlugin = require('./src/plugins/select-group.js');
-var MultiSelectGroupPlugin = require('./src/plugins/multi-select-group.js');
+var SelectGroupPlugin = require('./src/plugins/select-group.ts');
+var MultiSelectGroupPlugin = require('./src/plugins/multi-select-group.ts');
 
 module.exports.HelloWorldPlugin = () => {console.log("Hello World");};
 module.exports.AnotherHelloWorldPlugin = () => {console.log("Hello World again");};
