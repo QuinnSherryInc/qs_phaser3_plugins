@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/QuinnSherryInc/qs_phaser3_plugins/issues"
   },
-  "homepage": "https://github.com/QuinnSherryInc/qs_phaser3_plugins#readme"
+  "homepage": "https://github.com/QuinnSherryInc/qs_phaser3_plugins#readme",
+  "devDependencies": {
+    "@types/node": "^13.7.4"
+  }
 }
