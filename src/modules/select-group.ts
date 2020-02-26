@@ -1,12 +1,12 @@
-const EventEmitter = require('events');
+import EventEmitter from 'events';
+import Phaser from "phaser";
 
-class SelectGroup extends EventEmitter{
+class SelectGroup {
     private _gameObject: any[];
     private _selected: any;
     private _options: Object
 
-    constructor (gameObjects: [], options: Object) {
-        super();
+    constructor (gameObjects: Array<Phaser.GameObjects.GameObject>, options: Object) {
         this._gameObject = gameObjects;
         this._options = options;
         this._selected = null;
@@ -23,13 +23,13 @@ class SelectGroup extends EventEmitter{
                     }
                     this.setSelected(obj);
                     this._selected = obj;
-                    this.emit('selected', this._selected);
+                    //this.emit('selected', this._selected);
                }
             })
         });
     }
 
-    setSelected (gameObject: any) { }
+    setSelected (gameObject: Array<Phaser.GameObjects.GameObject>) { }
 
     setUnselect (gameObject: any) { }
 

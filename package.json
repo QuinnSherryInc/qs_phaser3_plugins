@@ -2,7 +2,8 @@
   "name": "qs_phaser3_plugins",
   "version": "1.0.7",
   "description": "Collection of Phaser 3 plugins by Quinn & Sherry",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/QuinnSherryInc/qs_phaser3_plugins.git"
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/QuinnSherryInc/qs_phaser3_plugins#readme",
   "devDependencies": {
     "@types/node": "^13.7.4"
+  },
+  "dependencies": {
+    "phaser": "^3.22.0"
   }
 }
